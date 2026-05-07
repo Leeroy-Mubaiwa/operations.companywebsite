@@ -1,6 +1,10 @@
 (function () {
+  var LOGO_URL = "https://storage.pindah.org/IMAGES/pindah_logo_webp.webp";
   var navHtml = [
     "<center>",
+    '  <a href="/index.html">',
+    '    <img src="' + LOGO_URL + '" alt="Pindah Private Limited" style="height:80px;width:auto;display:inline-block;margin:8px 0;" />',
+    "  </a>",
     "  <h2>Pindah Private Limited</h2>",
     "  <p>",
     "    Harare, Zimbabwe<br />",
